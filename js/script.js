@@ -1,6 +1,6 @@
 // Configuração dos canais. Preencha somente com dados oficiais confirmados.
 const CONFIG = {
-  whatsappNumber: "",   // formato internacional, só dígitos. Ex.: 5575999999999
+  whatsappNumber: "5575988442372", // WhatsApp oficial: (75) 98844-2372 (formato internacional, só dígitos)
   evaluationUrl: "",    // link de avaliação definido pela administração
   ombudsmanUrl: "",     // link oficial da Ouvidoria
   reclameAquiUrl: ""    // perfil oficial no Reclame Aqui, após confirmação
