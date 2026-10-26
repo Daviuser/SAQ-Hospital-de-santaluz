@@ -53,7 +53,7 @@ body {
   align-content: start;
 }
 
-.hero { animation: enter .6s ease-out both; }
+.hero { width: min(100%, 760px); margin-inline: auto; animation: enter .6s ease-out both; }
 .hero h1 {
   margin: 0 0 var(--space-2);
   font-size: clamp(2.1rem, 8vw, 3.4rem);
@@ -182,7 +182,7 @@ a.channel:hover .channel-arrow { transform: translateX(3px); }
 
 @media (min-width: 880px) {
   .site-header { justify-content: flex-start; padding: var(--space-2) max(var(--space-3), calc((100vw - 1040px) / 2 + var(--space-2))); }
-  .page { grid-template-columns: 1.15fr 1fr; gap: 4rem; align-items: center; padding-block: 5rem; }
+  .page { grid-template-columns: 1fr; gap: 0; align-items: center; padding-block: 5rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
